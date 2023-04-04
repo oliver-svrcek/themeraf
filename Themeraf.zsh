@@ -1,3 +1,10 @@
+setopt PROMPT_SUBST
+autoload -Uz vcs_info
+
+precmd() { 
+    vcs_info 
+}
+
 zstyle ':vcs_info:git:*' formats '%b'
 
 function repo_status_part() {
