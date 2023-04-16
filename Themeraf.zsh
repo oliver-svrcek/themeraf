@@ -10,7 +10,7 @@ zstyle ':vcs_info:git:*' formats '%b'
 
 # venv
 function venv_part() {
-	if [[ -v VIRTUAL_ENV ]]; then
+	if [[ $(echo -n "$VIRTUAL_ENV" | wc -m) -ge 2 ]]; then
 		echo "%F{159}`basename $VIRTUAL_ENV`%f${SEPARATOR}"
 	fi
 }
