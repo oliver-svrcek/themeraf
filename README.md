@@ -15,3 +15,4 @@ Just `source` the `Themeraf.zsh` file in the `.zshrc` file.
 
 ## Author
 Created by Oliver Svrček
+Copied from Filip Toma
