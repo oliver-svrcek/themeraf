@@ -35,7 +35,8 @@ function easter_egg_part() {
     fi
 }
 
-local SEPARATOR="%F{235}│%f"
+#local SEPARATOR="%F{235}│%f"
+local SEPARATOR="%F{235}  %f"
 local VENV_PART='$(venv_part)'
 local START_PART="%F{255}┍ %f"
 local USERNAME_PART="%B%F{226}%n%f%b"
