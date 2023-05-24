@@ -1,5 +1,5 @@
 
-# Themeraf (Zsh theme)
+# Themeraf (zsh theme)
 
 This is my own Zsh theme.
 
